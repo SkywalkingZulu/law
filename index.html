@@ -33,32 +33,33 @@
     
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
       <div class="container">
-        <a class="navbar-brand" href="/">Law</a>
+        <a class="navbar-brand" href="/" hidden="true">Law</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="ion-navicon"></i></span>
         </button>
         <div class="collapse navbar-collapse" id="probootstrap-navbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-about">Contract Drafting and review</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-why-us">Company registrations</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">Practicing Areas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#practice">Practice Areas</a></li>            
             <li class="nav-item"><a class="nav-link" href="#section-attorneys">Attorneys</a></li>
-            <li class="nav-item"><a class="nav-link" href="#section-testimonials">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section-testimonials" hidden="true">Testimonials</a></li>
             <li class="nav-item"><a class="nav-link" href="#section-contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- END nav -->
-
-    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/1900x1200_img_7.jpg)" id="section-home">
-      <div class="container">
+<!--
+Image below is cropped in pc view.
+-->
+    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-4" style="background-image: url(file:///home/pi/Downloads/Thandiwe%20SA-3.jpg);         object-fit: cover;
+" id="section-home">
+      <div class="container" hidden="true">
         <div class="row align-items-center justify-content-end">
           <div class="col-md-6  order-md-1">
 
             <h2 class="heading mb-3">The Legal Circle </h2>
-            <div class="sub-heading"><p class="mb-5">A fcompany that specialises in bussiness related law.<p>
+            <div class="sub-heading"><p class="mb-5">A company that specialises in bussiness related law.<p>
             <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2">Free Consultation</a></p>
             </div>
             
@@ -69,35 +70,19 @@
     <!-- END section -->
     
     
-    <section class="pb_section pb_section_v1" data-section="about" id="section-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 pr-md-5 pr-sm-0">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">Who We Are</h2>
-            <p>Enquire</p>
-          </div>
-          <div class="col-lg-7">
-            <div class="images">
-              <img class="img1 img-fluid" src="assets/images/600x450_img_2.jpg" alt="free Template">
-              <img class="img2" src="assets/images/800x500_img_1.jpg" alt="free Template">
-            </div>
-          </div>
-          
-        </div>
-      </div>  
-    </section>
+
     <!-- END section -->
 
     
-    <section class="pb_section bg-light">
+    <section class="pb_section bg-light" id="practice">
       <div class="container">
         <div class="row">
           <div class="col-md">
             <div class="media pb_media_v2 d-block text-center mb-3">
               <div class="icon border border-gray rounded-circle d-block mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-jury"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Cntract drafting and resolution</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                <h3 class="mt-0 pb_font-20">Contract Drafting and Review</h3>
+                
               </div>
             </div>
           </div>
@@ -105,8 +90,8 @@
             <div class="media pb_media_v2 d-block text-center  mb-3">
               <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-law"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Providing legal soluttions in any commercial or bussiness arrangements</h3>
-                <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                <h3 class="mt-0 pb_font-20">Company Registrations</h3>
+ 
               </div>
             </div>
           </div>
@@ -114,8 +99,8 @@
             <div class="media pb_media_v2 d-block text-center  mb-3">
               <div class="icon border border-gray rounded-circle d-flex mr-3 display-4 mx-auto mb-4"><i class="flaticon text-secondary flaticon-courthouse"></i></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-20">Policy drafting and reviews for companies.</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="mt-0 pb_font-20">Company Policy Drafting and Review <h3>
+                
               </div>
             </div>
           </div>
@@ -126,11 +111,11 @@
       
     <section class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/1900x1200_img_3.jpg)">
       <div class="container">
-
+<!--Add boxes to text and highlight those boxes. -->
         <div class="row align-items-center">
           <div class="col-md-12">
             <h2 class="heading mb-3">Free Consultation</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">There are three things that differentiate us from traditional law firms</p>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">We provide you with a firm quote upfront. No hidden fees.</p>
             <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Get Started</a></p>
           </div>  
         </div>
@@ -144,206 +129,24 @@
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top font-weight-normal">Why Us</h2>
-            <p>We focus on giving you value rather than focusing on the time we spend on your matter. We therefore give you a firm quote for our services upfront.</p>
+            <p>Our lawyers have experience working for multinational corporates as well as top South African law firms, which makes them skilled as providers of legal solutions, but also commercially sound in their approach. Therefore we do not only give you legal solutions, but we give you solutions that speak to your business and commercial needs as well.</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row" hidden="true">
           <div class="col-lg-7">
             <div class="images right">
-              <img class="img1 img-fluid" src="assets/images/600x450_img_2.jpg" alt="free Template">
-              <img class="img2" src="assets/images/800x500_img_1.jpg" alt="free Template">
+          
+              <img class="img2" src="assets/images/IMG-20201214-WA0027.jpg" alt="free Template">
             </div>
           </div>
-          <div class="col-lg-5 pl-md-5 pl-sm-0">
-            <div id="exampleAccordion" class="pb_accordion" data-children=".item">
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1" class="pb_font-18">Property &amp; Business Law</a>
-                <div id="exampleAccordion1" class="collapse show" role="tabpanel">
-                  <p></p>
-                  <p>Our lawyers have experience working for multinational corporates as well as top South African law firms, which makes them skilled as providers of legal solutions, but also commercially sound in their approach. Therefore we do not only give you legal solutions, but we give you solutions that speak to your business and commercial needs as well. </p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2" class="pb_font-18">Famimly Law</a>
-                <div id="exampleAccordion2" class="collapse" role="tabpanel">
-                  <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion3" class="pb_font-18">Commercial Litigation</a>
-                <div id="exampleAccordion3" class="collapse" role="tabpanel">
-                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                </div>
-              </div>
-              <div class="item">
-                <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion4" class="pb_font-18">Injury Compensation</a>
-                <div id="exampleAccordion4" class="collapse" role="tabpanel">
-                  <p>Our fees are not prohibitive as we do not charge per hour but we give you a firm quotep>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
     </section>
     <!-- END section -->
     
-    <section class="pb_section">
-      <div class="multiple-items pb_slide_v1">
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Criminal Law</h2>
-              <p>Read More</p>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Migration Law</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_4.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Property Law</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_1.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Civil Rights</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_2.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>State Laws</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-        <div>
-          <a href="#" class="link-block">
-            <img src="assets/images/1900x1200_img_3.jpg" alt="" class="img-fluid">
-            <div class="slide-text">
-              <h2>Immigration Laws</h2>
-              <span>Read More</span>
-            </div>
-          </a>
-        </div>
-      </div>
 
-    </section>
     <!-- END section -->
 
     
-    <section class="pb_section pb_bg-half" data-section="practicing-areas" id="section-practicing-areas">
-      <div class="container">
-        <div class="row justify-content-md-center text-center mb-5">
-          <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Practicing Areas</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-
-            <div class="single-item pb_slide_v2">
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-handcuffs"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Criminal Law</h3>
-                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_2.jpg);"></div>
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-wallet"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Financial Law</h3>
-                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
-
-                    <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_3.jpg);"></div>
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-computer-security"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Cyber Crime Law</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-courthouse"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Real Estate Law</h3>
-                    <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her. Original article: Web Designer Notebook | Text from Dummy Text Generator</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div class="d-lg-flex d-md-block slide_content">
-                  <div class="pb_content-media" style="background-image: url(assets/images/1900x1200_img_4.jpg);"></div>
-                  <div class="slide_content-text text-center">
-                    <div class="pb_icon_v1"><i class="flaticon text-primary flaticon-jury"></i></div>
-                    <h3 class="font-weight-normal mt-0 mb-4">Family Law</h3>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                    <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. And if she hasn’t been rewritten, then they are still using her.</p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-      </div>  
-    </section>
+ 
     <!-- END section -->
 
     <section class="pb_section bg-light bg-image with-overlay" data-section="attorneys" id="section-attorneys" style="background-image: url(assets/images/1900x1200_img_2.jpg)">
@@ -351,13 +154,14 @@
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
             <h2 class="mt-0 heading-border-top light font-weight-normal text-white">Attorneys</h2>
-            <p class="text-white">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <p class="text-white">Thandiwe Mchunu is an admitted attorney and legal professional, experienced in advising in non-litigious commercial, banking and finance, project finance and general corporate transactions.
+</p>
           </div>
         </div>
 
           <div class="col-md">
             <div class="card text-center pb_card_v1 mb-4">
-              <img class="card-img-top rounded-circle w-50 mx-auto" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMVFRUWGBcYFRcXFxgVGhUbFRgXFxcXGBcaHSggGBolHRcWITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OGhAQGy0lHyUtLS0tLS0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTUtLS0tLf/AABEIAMwAzAMBIgACEQEDEQH/xAAcAAACAwADAQAAAAAAAAAAAAAEBQADBgECBwj/xABBEAABAwIEAwYDBQcDAgcAAAABAgMRACEEBRIxQVFhBhMicYGRMqHBB0KCsdEUI1JicpLwFcLhM9IkQ4OisuLx/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECBAMF/8QAIxEAAgICAgICAwEAAAAAAAAAAAECEQMhEjEEQSIyQlGBE//aAAwDAQACEQMRAD8A9xqVKlAEqVKlAEqVK4JoA5rgmLmsvnvbJtqUsp75XMGEDzVx9PesVnGJzB/xHEN6TcIAISJ28/M0r/RSizd9ou2mGwiQVFThJgBsA38yQIrDZh9q7yrMNNtjmsqWr5QPzrO47LcWoDX3agkkjxR05UtxLKsOoJWlAWRqA30jma5Tk0dYQT0PMT2yxxBU7iSBBs3DftpANJHu2jtgQ4qOKnVEnqZoY4cruSTPOo3kpIkjyiK4rJfZ3eKujo/2viCGTJ3lce1r0wwHa5Onwktnjfb5VWMgABlI9LUsx3Z21hFUskOiHhn2aB3ts+gHu8Q7P9ZI9tqaZV9pWMbSC6sPTwUgCPVEE+tYHBZj3A7p1AIEwqASPPmN62ODyvwhwLSdQBABABm4iDcReuu/Rydez0DI/tHS7Adwzjc7KSQoGIvBggX61ssFmDToltYV5bjzBuK+fs9zINqbCFq1DVq0q22gWpcntCtJCkuuAjiFKB95quRHFM+m6leK9m/tXdbIRiP3zf8AFYLT67K9fevWMkzxjFI1sOBXMbKT/UncflVJ2S1QyqVKlMRKlSpQBKlSpQBKlSpQBKlSlue5y3hWi4u5+4gbrPIfrwoAtzfNWsM2XXlaUj1KjySOJrx/tV21fx0oZbdSzsUpMav6zx8tqFzfNcRi3e9dCQPupJJCByAqrLcV3KY0i6ibHnXNzOqgJXF4gW0PC3EavpXJzh1KYK1iBEFHLrWyw2eouVJI5kQauYxCHhqQlXqIB/UUtMezIoz5xKCsPJOm+lSSCeQpD+2OPOlxwlS1G3Dcb9AK1Pb50oZCdBCSpIKiR4j8RsPKs92Yw2slcDkCeFRkdLZ0xq2kjV5Vg06b+JW3MeQpqMNpEkCfLau+U4WAOJ507OHBrKo8tmxy4iBDBJrpisDI2rRN4ccqmICQLgUuA+Z5lnuTAgyKJ+z/ADcN6sG4BxU0eYuVJ+vvyphnzsyKw2PWptYcSYUggg+X0PEV2wTfRw8jGmuR6w8pswSlMjYkCRQjuEC/uJPmBWfZxWMWgOBkKSoAgzEgiQYJ5UVhs9WPCtGgnnMe+1arMdDVWTNi5Qn+2aTuLLL5cY1NrEQpFokfXkbUerNlRciPOhmHw9rgkQqJCSrYDiKYqo9A7I9u0vQ1iYbdsEq2Q4dvwqPLY8OVbavnnM8PoSSSojidBHLpWz7CfaS3qThsS5vZt1VvJKzy5K9+dNMTR6nUqVKZJKlSpQBKlSuCaABszzBDDanXDCU+5PADqa8az7FftbxddcXOyUpUQlA4AD8zxq37Q81XjXh3T4Sy3IQB948Vm954dPM1lBlLu/7Qmahuzoo0F4DALcC1d4oaVqTa9hFcf6YSvSHVWHFB+dG9nnSzqStaVEmd44CtErNUHgPf57VOitmMewCtWgPA+Yv7TTzL0YhKEpS4nw2jQbx11V0zTNU3Meog1MFm0AGD1pqgdmf+0FTyu6S4kASqCJv8O8+fzo3sy2A0AOZJortLiG8Q1pukoUFBSo0zsQT5H8qpyFkoUUKEEVnzytUaPHjTtmwwuMQ0Ele5skASVH/ONcY7tky14SyuefIcDBHHegRjGsKTiHYKhZPHSBsEjaSZv/NVI7et4hzu2mVqJkxpC5AGomAQdgTb51OPUdI6T+22OsB2gadFhE3vVWaZuhsSoSOVD5WnvwVpjSOI57xzoHNcKoKSN5IHvaufJnTj6EGOzZ55RLOFUoeSj8wKQZrqKVd42W1jdJBuLXE/5tWyzvtG5hghlrDEBYkLX4QZtMG6difFBjhWOezFWISsuCCAb+ldkvdHCT7VjjJMZDDTem4T90mb3mDTDQ0bOFR/CbVf2e/8JKXVJ8SU6CJ2Tw+Yp8nOmT99I860UjLbMs4jDRGoeRAH5ij8qOHSFDWhIBEXAvF/pTxWb4cX1oJ8xQy82aV95HuKaEzP5uGUJWttwKi5khRB3sNuVZ3GZ2FGdXyH6Vrc8ZZdbUJTqMQRE70iTkzYHwyY33oA9D+yzt8l4pwT6xriGVH7wH/lnry57cp9Rr5pwuGbQoGAkgzqgpKSLgjjavdOxfaNGMZ+MKdbADgFptZUcjf1BppktGiqVKlUSSsZ9pudFrD9w2rS49YmY0o+977e9bJSgBJsBvXkOcujFvrdJKhJCdiEpFki/S56k0pFR7MzhcN4bwTtvO1VqwxJ+E9IE1okYUIuCZ8xHyFD4hteoSo+W3yrnR0sU4TAshSg634rEStSbEchtRCsFhjYa0+Tk/nQuKyRxx1alKKQdjxjyFcIyFIMFx0+UUOw0d38gb+LvVwfJX5VRiMoQkXeWBsPDPyFH4LLglU6nFJEkath50TiGQTrQZMGI4WqLovsAyjKoUk97rTwSpJSCSPDJJ5waeY/D6VJdlPisI5CInqYNJ0qVI5+dFvAlI8ciRa3hJBVHqJMVnzbdmnBqNMbDKW8QmFiehv8qExfZ0agU+EgAHSkAkAAAavQcOFNMixABF6aZtmTaBKQJqE9dnVrYNluGDLcDYdZ9+tKM8cmCrbjXdeKeSkK7lbpVeElI8viIgDlSztJnaloKAykKIBM8OkiQPSpeylojuVIXcgifvJO/mNvWlWbZa23p0iBI1db3ozIMxUg6VkQRMDgRuOooXN8WHXUtAxqUEk8pMTVRu6JklTbD8UhLbgCCVeHzIk7X8qEXib2EegpmGQhxalOSSBvFgJ/WrEYJC76kq84+hrfR5dmbfbKjcVaxgJ4CeNq1bWWmxCoSN9Ox871c7l9yUuiOWmfrUyiVFiBvLwBcD2qrFgJsBT13LlK2dA/B/8AalmOyRe4eSfwkfPVS4srkjH41ILydVxNx6VqeyWdIwmIS6hKQPhcgAFSDEi2+wI6gUjzLJXQoKC0qg73FCs5eubkepP6VatIl0z6bacCkhSTIUAQRxBuDXesf9mWOUrC9ysjU1ZMGZQduA2MjyithXRHNqhD21zHucKozGohM9CfF/7ZHrXmisxQdiPKYmtZ9o2LJUhkBKoTJBNiVHY+g+dYkYAC6sO2T0UBUSZcUdmsrSsyCtJ6KJ+Ro/CMhKdyTzIoVDSgfCwsA8lgf7qMUlDYBWhbc/zEz7E/OlyHQqx7i+CykXFx/wAzSRZWD8SSfI/rWixzzJuCR6qn2pagM3IS51sf0qW7KSo4ynDuO7uAAGIietOVZMsbKSfwAflSnL8SElQAjxSJtwFMWMxUTGoJHWb+tKrHdFbbSTtFGYXLEISon4jq0jeCsAkkbA2N44RQa8haQJLrgVykfnFMM2wS20luZUhAi+o+BV9PIlKieEhNTL4qiofJ2KA+RdJrlTylRO1L8I9bfp7Wpgwvh1rG1TN6dobYbtA3ESpUfhFv5jS/M+0CYUlKASbQFao3vIH0o1547gT0/wAsaS4/GOKBCWyJ4gJH1muqcGtlwjCrYgGMWpYAQReN/lzonK8EV4jVfu0KGpV4AJi6hsTBihnCUdDTnKMbh2cNqJnEFzVpmBCQIkwRxUPVXQ1cFu0Zc0tNDJeBYU4f3rkQIhWoDeevpNEjKEN7YlQnbb60iQ05jSp0OJaE6dIEzAF5kc6Jy/IcQwVFC216oEKkdbVqowWPV4AlJSXVjVElOkbX/hof/TFJFsQ7+LSf9tBPoxahALcHqf0q1jL8aREsx1Kv+2gCjM33mkylwqPAaQZ9qDwzWPWDKUhBBknlxIiiHnk69L1ghXiCYOojhfYU8xOdM90qDp8JAsLW6GkFmcdZ0Rqcm1hAk10W+UpBgAnhGw633qxWZJ0zrBPkPSkmZvKc2c35D/mkimbfsL2gKMWgEpCFHQo89dhF+CtJr2WvlnCYByQQ6QeECvpvKcV3rDTh3WhKj5kCfnNXHREjy3tdhH3ca8tLqUjVpAINtACfoaSrwmKEALbUSd7gCAT9K6YvPcQt5zSlJlar6TxUeNEtZq5pBKUgpvIBg8I6VDaOiTCcJg8YE6pb2niJ5ULmWIfKQHkWHFKp38qIX2jWEwptHQTv6QaXO9o1Ofu0NQTyPH2otDpoBU0QoyZBFpKqKyzGrR4EoMbkxxPQ1Ylpc+JEnmVAkeQkRXbFCCEyU+HiAeJ61BQe1jAY1CL7xPkB1o8KFgFaTxtPtSvAZbcLGtUbWsLX4RVuJQ5bQkEkTvcSYAI+7PAm29xBirZPEZHEMxGpJ5kwZjnSzMMQzuSggDobcqXYnFPJ/dqTpOkGLRCtjbcG9BZkHXY1KkDgBAH6+tRLMlouOCT2V4NufhEHe3W/1piwr0IqjLWYq/EtTv8Ap86zOmbI6GWGxiRvFU5jmrYB2rOZhhHj/wBJZPRQv/cP0pOMtfmXRA85n1oUV+xuVeh5lDYxOJAVdKQVkcwkgAGeEkT0rYNZSwqT3De/8CaxeQ41ph094lXiTAKYtcWIPA8+la/C54hJUnulkji2e8BFoNgIBBnyjnWzFSWjBmty2EJyllIsyOfht+Rq04dtJCSFgkSAFK2ETsrrVK86YXISqFxJBEEb/QT5XpNiM7bLv/URZJFyLGRarbOKQ7/YmNz3k/1uD/dXUBpMx3v97n60pGYhX3h71z388aLCinG5VhVKJKVFRknxOX9ZoP8A0ZiD4V/3Lpsw3PnRLTYAMmmIzK+zzP8APHQq+tV4jJGkRC1JttMz8q1ofSNqExqydgPWnQWZRb4TOlVxtIr2/wCzXGl3AokyUKWg++qPZQrxnNkgpgj4iNvPnWy7F41OHYUhJgFwq+I8UpHPpS9j7QuZyl1ESUKG5UFKT72vXDxXGnQI/rX+cXopOL7xZSFWSSDFrg7VctYFgZNc6R0tivuQBZITzOoz6WqgPqTfSCQeJAtxuBNNwgH4iKW49IUsNoMgXV9B9faonJRVnSEXJ0RsKeIgaR0Jk+tMf9GSkSRReXMhIoxy9YZTbds3xgoqkYzGKUgnuzp5jgfMbH1p1lz5cQlbRSlY1a5sdQClEiBdMTaTvYTYjZw0BQPZwrL/AHaPvpWPuzKUKUCkqsk23vE7HatGDI7o454JqzR4PGtrQpOouhfiI8PeatQJChxAMm8RYgWiqMZlBVKmPEDENgEqAte+99XtuaFw72niEeNK/hIK41LsqRCigJmBBueAJZNuOLkAFZF9QI8aVE6gtSOAClkwLgJ+EKIGmUFLszxlKL0Z9IAtsRuDYjoRRLCDxpzjcuQQ2FqBJJJcHxQtSipS4E/ElcAi5kW3AWKwTjAn4kSQkyDIlQBsTuEE8ayzxSiaIZEy5CExSbOHAkEiiWsYFdKV5w3qsK5ezsZxStSyTTvC4BbjTbyULUDrSpSbmW1CVRawBAAkXG9LmcB4rzFbjImoZA8Qh0adI+BOk61ACJHjVx49TWjHK5UZ8kajZm05W+sqhKllAnQmdUNqQJBg2SJAJkDle4WKyQr0LSFErHj1b6huqxO+8dD5D0RnDtpbdTpISNV4C9MpkohJix1ASeEyRc8uYoF9TQGp1SGzt/MSNKgkR4FFRmZ1CSnTFd5RtNHGMqaZ5052bUgTt0NG5HlDbqTdWtJ8SbiOV52PPpWuzRisdjGUIfQVTpJ0qgxY236G/pWbDkd0zrnxRatDtOQoAs2oHn3iqHORqJB1Ljqs28oqzS193WfxHhw2obELQAZt6q/KtlmJRG2HydKRcqP41frVzuFQE7H+41ll4puIBPnJmuO+QbKUojlM0ch8DjtOEd0qCdXATteseFrFguPJRrSrSwUjwJJ4nj71bl+StOpKg2LGPkD9aLBRaG3aF0NYt9sDSEur4xPiJB9iKVuZiVGErA/qn6Vu/tByltWM8SLOJSqRb+U3/DypZhMmwiDIQk+Zn5VLjsq9GZcw75GrvUn3pzlLEXNz9aJzt5uEoQkAkyY5Dh7/AJVfl7UisfkS3Rt8eOrD21QK7KWTtXGgCopysxpFmORzrPYcziUAEgSSoiR4QCVAxwKZHK97TWoxrBINZjAJUnGNadwuQoxAKZUJmw2mehPCtGBXJHLL9TdsZV36lpalQ0ybphQknTtxkXm4AG1clBSUplIMK7zUgKNwCkQbHcySDaAAbRZh1HxFClJldiAENBMRb75E7zaxMDauWviQD4lJCr3sFRyjYzHVXCK3NmSMGwZxegd2mCQSyqXCZSjeVQoTccZveDStGJ7t5IupfhbdQFAkgj7viGgERsR8ViZrSowSCIAgEhRMkEkcZ35+550Jm2FBmB4lXMAX2AUqRwAN97miynhkIm8LqUVr+MlKCk6tSTp0/DILhJPOSRJG8loydtwNxPiOkkkCVEAABOmQCs7nhBsTAr7pCdZCQZu1JgApgRATIsVHXqvEEcaJaxalxqgBKVDTI7yARJUvokECJgFUiwqXCEvRPKcNAqsraQs6dTmlXiB0J0iCq4CiSLSYiJvEGiho1p0pVpbhRKYT3ciUlCe8VqJ+Ik3sm6a6rfUudAuFT3kDYAmbiSQAb7J0pgkURhWUNN6dKpGjQsDcKKgdYkTYLFzcpAkpimoRj0hSk32Lu+Km1+HfWFEqJT+7bUFKNjqhSDA0wQAYg3tDgbKFeBKvEFbK0qUlOlQ06i6ki3GR/EEg1XiklDYAMlQUlS5UQvVIDnwnVChedzEiZJAzXMilCGwFJ0KCgdRIBCfGkaTOm49FneqJa0G4t86BM2tJETGyo4AiD61jM9M8auXmR1LABCVGYJJMwNRJJJkmeJ86AxAKqxqFSNLlcQlOHCbpcdi3EcfSq3GNahqWoiDxH0FdEIsLbCKuS0T0rTZl4lDmGQNifeqy0OtMEMCopAphQsVh/OvV/snyNK8Gpa+Ly9PkEoH5g15o4Yr3nsHg+6wGHTEEo1n/ANQlf5KA9KceyJvQN26wqdCHlA+E6SRaytvSR86wKlNE7xbpXrebYIPMraP3kkDod0n0IBrxV3FeJSB8SSQQQSQRYiI505CgV4hxJdkXAAA/P602wjxiBSXL8MpaioiL1o8K2lIrzMjuTPVxqootaZJ3otLIAoc40DaqnMWTUFnXMXQAaz+TPKVi0ISkK3V4gCBpI8XQxIB5kUzxVxQfZs6cUo8e6WB6qb39dI9a64vsJqzZOc+W3U1xh2vWbk8+nl/nOuVgJASDJ2nmeJMdbnyq5FrCtliSL1C3XhXBZERvz61w2qTvsNvP/wDDXfvBRYqFLzSUlSyJt/gApYiJUJGsgl1WlCgAY8JCgQoCBa9/Ki85fMwOG3U8PnJ/DSRaD8PM+Lr507E4p9jDGZgEALVF1GbA92lUluAbOlIKfi08NwDpHw+NShPjIKoQkEbqTdJ7yLEW2PiMySQIIy0FZXyJA9pH5TVDuDt6D5RFPkcHiSYY5moCTE6bJjUfMSJvt+VKnsZqJgb/AKzHlVi8OK5Rh6Vj4ih3C3molsU2eZpY8mDSJ40dQBXeugFcx1qkcpEIrouoUnnVakGmQX5XlxffbZH31pT5Am59BJr6KbQEgJAgAAAcgNq8q+yXJyp5eJULNjSj+pYuR5Jn+6vV6uJxm9krzbtx2aQh84pKinvCJAEjVx63F/evSaAzvLhiGFtEwVDwq/hULpPv8pokrQRdOzxtOPiQOBPCPermXFKpWcMtlxbbiYWlRCh15jmDvNM8KhRFeXJbPZi9BiEczVoI4XrlnCHiaJThwKmhti/ESRagezoIxgsTKF/LSfmQBTvEwBSLAuD9sYuB44vxtt7ge1dcepISN3+z+KeQ+Z+sT711Umr1nSSZ3M/ID6UBiMaBxrUB3bWRPn9BXcqsTSI5nHufzNUO5kSm3GfnNAg7FFPxTPL9fypM/jQNvSumIeUrpQGjiaCWHoxBiBXdLZMTQ7CuFGIXQIjbQrq4mDVoNdHN/SmAM7tSvFp403cIpdiFCmiJA3cnTXAw5513U9VZxBpmdo7fs551azh5ISLqJAAHEmwFBrxBrefZdkJcX+1uDwIkND+JXFXkPzPSmkc5aRv+zmVDDYdDQ3AlZ5qN1H6eQFM6lSupnJUqVKAMr2z7PB4d+hP7xA8Qj40j6j/OFYdrFJFexV59247LFOrE4dMjd1scOa0jlzHrWTPhv5I2+Nnr4S/gnGNFC4nMY40mOMPChMQtaqyqJtsYYrNppWzigHULP3VhXsaFU2edchoV2jCiHI2r2fhQsZpW9jlK51xljSe7rspIrsNMoSCaNYaocmKvYX1oHZatqgHQJ6Uc6u0RQDir0xFuH5miCu1ApcogKoEXKd2qhx0ya4U5eqFvUAcOub0G6atW5VClXpo5yKlJNdCk0VNH5JlDmKdDTYnipR2QOKiaZwbOvZbs6vGPBsWQLuL/AIU/9x2H/Fe6YPDIaQltACUpACQOAFCZDkzeFaDTY6qVxWeJP6cKY11SozTlbJUqVKZBKlSpQBKlSpQBgu2HYoql7CgA7ra2nqjkentXnS2VAkEEEWINo6V9BUjz/sy1ifFGhzgsDf8AqH3vzrhPFe0asXkVqR4qrDmuv7Ga02dZI9hjDiPDwWLpPrw8jFKdVcNo2KmrRxgllAINcPPCak0LiKpSYzsX+pq5l2qcNhib07wrSRwFdEgBENqVtNcLwK+Nq0TSRFhFV4gUwETGDg3o0YIcqvAFFo2oAVLwFCP4Aja9PlGqHDTEZtbYFUNxNOsXhO8skEqO0CSfSn3Zn7PFqPeYvwJ4Ng+I/wBRHwjpv5UJHLJJRWxBkHZ53Fr0tiEj41n4U/qeleu5FkrWFbDbQ6qUfiWeZP04UZhcMhtIQ2kJSLAAQBVtdUqMM5uRKlSpTIJUqVKAJUqVKAJUqVKAJUqVKAOriAoEKAIO4IkHzFZPOOwbDkqaJZVy+JB9Nx6H0rXVKTin2VGco9M8kx3Y7FNG6Naf4keIe249qVO4ADfevcKGxeXtO/8AUbQvzSCfQ7iuf+SXRpj5T/JHiu1EMLr0fE9icIvZK0f0qP8AumsvmfZ9powlSz5kfQUnFo7wzxlpASHDFU4lyuyE1cxhErNyfSpOrdCxDhmmDS7Vqsr7H4dQ1KLh6agB8kzT7C5Dh2/haSf6pV/8pq1BnCXkxRgcLhHHDCEKV5DbzPCneC7HrVd1QQOQ8SvfYfOtolIFgIFc1SgjhLyZPrQDluUMsD92gA8VG6j60dUqVZnbb2yVKlSgRKlSpQBKlSpQB//Z" alt="Card image cap">
+              <img class="card-img-top rounded-circle w-50 mx-auto" src="assets/images/IMG-20201214-WA0027.jpg" alt="Card image cap" width="1005" HEIGHT="100%">
               <div class="card-body">
                 <h4 class="card-title mt-0 mb-2">Thandiwe Mchunu</h4>
                 <h6 class="card-subtitle mb-2">Business Lawyer</h6>
@@ -373,7 +177,7 @@
 
     <!-- END section -->
 
-    <section class="pb_section bg-light">
+    <section class="pb_section bg-light" hidden="true">
       <div class="container">
         <div class="row">
           <div class="col-lg">
@@ -485,21 +289,22 @@
             <ul class="pb_contact_details_v1">
               <li>
                 <span class="text-uppercase">Email</span>
-                thandiwe.mchunu@gmail.com
+                thandiwe.mchunu@yahoo.com
               </li>
               <li>
                 <span class="text-uppercase">Phone</span>
                 0766144200
               </li>
               <li>
-                <span class="text-uppercase">Fax</span>
+                <span class="text-uppercase">Cell</span>
                 +27766144200
               </li>
               <li>
                 <span class="text-uppercase">Address</span>
-                Durban, KZN <br>
-                Regal Office  <br>
-                South Africa, 4001
+                 <br>1st Floor Liberty Life Building,
+                 <br>21 Aurora Drive,
+                     Umhlanga,<br> 
+                     Durban 4001 
               </li>
             </ul>
           </div>
@@ -545,3 +350,92 @@
     <script src="assets/js/main.js"></script>
 	</body>
 </html>
+<!DOCTYPE html>
+2
+<html lang="en">
+3
+        <head>
+4
+    <!-- 
+5
+    More Templates Visit ==> ProBootstrap.com
+6
+    Free Template by ProBootstrap.com under the License Creative Commons 3.0 ==> (probootstrap.com/license)
+7
+​
+8
+    IMPORTANT: You can do whatever you want with this template but you need to keep the footer link back to ProBootstrap.com
+9
+    -->
+10
+                <meta charset="utf-8">
+11
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+12
+​
+13
+                <title>Legal Circle </title>
+14
+                <meta name="description" content="Thandiwe Nokuphiwa Mchunu Law firm Durban legal circle">
+15
+                <meta name="keywords" content="Thandiwe Nokuphiwa Mchunu Law firm Durban legal circle">
+16
+    
+17
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:200,300,400" rel="stylesheet">
+18
+​
+19
+                <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.css">
+20
+    <link rel="stylesheet" href="assets/fonts/ionicons/css/ionicons.min.css">
+21
+    <link rel="stylesheet" href="assets/fonts/law-icons/font/flaticon.css">
+22
+​
+23
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+24
+    
+25
+    
+26
+    <link rel="stylesheet" href="assets/css/slick.css">
+27
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+28
+​
+29
+    <link rel="stylesheet" href="assets/css/helpers.css">
+30
+    <link rel="stylesheet" href="assets/css/style.css">
+31
+        </head>
+32
+        <body data-spy="scroll" data-target="#pb-navbar" data-offset="200">
+33
+    
+34
+    <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
+35
+      <div class="container">
+36
+        <a class="navbar-brand" href="/">Law</a>
+37
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
+38
+          <span><i class="ion-navicon"></i></span>
+39
+        </button>
+40
+        <div class="collapse navbar-collapse" id="probootstrap-navbar">
+41
+          <ul class="navbar-nav ml-auto">
+42
+            <li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
+43
+            <li class="nav-item"><a class="nav-link" href="#section-about">Contract Drafting and review</a></li>
+44
+            <li class="nav-item"><a class="nav-link" href="#section-why-us">Company registrations</a></li>
+45
+            <li class="nav-item"><a class="nav-link" href="#section-practicing-areas">Practicing Areas</a></li>
